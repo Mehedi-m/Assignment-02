@@ -137,9 +137,51 @@ font-weight: 700;
 
 
 
+/*main section-our tour part*/
 
 
 
+.tour{
+
+            width: 1200px;
+            height: 600px;
+            margin: 100px 135px ;
+            display: flex;
+            
+            gap: 80px;
+        }
+
+        .tour .us-tour h2{
+            color: #131318;
+            font-size: 40px;
+            font-weight: 800;
+        }
+        .tour .us-tour P,ul,p{
+            color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+        }
+        
+        .tour .us-tour .btn{
+            background-color: #FF5400;
+            transition: 0.3s;
+        }
+        .tour .us-tour .btn:hover{
+            background-color: #424247;
+        }
+        .tour .us-tour .btn p{
+            color: #FFF;
+            align-items: center;
+            position: relative;
+            bottom: 9px;
+            font-size: 20px;
+            font-weight: 800;
+        }
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
 
 
 
@@ -222,12 +264,31 @@ font-weight: 700;
         width: 100%;
     height: 52px;  
     }
+ 
 
 
     /* main part responsive*/
 
+    .tour{
 
-    
+        width: 90%;
+        margin: 24px 20px ;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .tour .us-tour h2{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .tour .mountain img{
+        width: 335px;
+        height: 342px;
+    }
+
+
+        
+
 
 
     

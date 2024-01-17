@@ -281,6 +281,117 @@ background: rgba(233, 68, 68, 0.05);
 
 
 
+    /*Bonus part*/
+
+    .bonus{
+        width: 1200px;
+        height: 600px;
+        margin:0px 135px;
+        margin-top: 200px;
+        display: flex;
+        gap: 50px;
+    }
+    .bonus .bonus-info{
+        height: 500px;
+        padding: 15px;
+        border-radius: 12px;
+        border: 2px solid rgba(41, 206, 246, 0.20);
+        background-color: rgba(127, 255, 212,0.52);
+    }
+    .bonus .bonus-info h2{
+        color: #131318;
+font-size: 40px;
+font-weight: 800;
+    }
+    .bonus .bonus-info p{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+    }
+    .bonus .bonus-info .bttn{
+
+        background-color: #FF5400;
+        transition: 0.3s;
+
+    }
+    .bonus .bonus-info .bttn:hover{
+        background-color: #424247;
+    }
+    .bonus .bonus-info .bttn p{
+
+        color: #FFF;
+        align-items: center;
+        position: relative;
+        bottom: 9px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .bonus .bonus-image img{
+        border-radius: 12px;
+    }
+
+
+
+    /* simple place section */
+
+
+    .simple{
+        width: 1200px;
+        height: 600px;
+        margin: 70px 135px;
+        display: flex;
+        gap: 42px;
+    }
+    .simple .simple-info .simple-btn{
+        background-color: #FF5400;
+        transition: 0.3s;
+    }
+    .simple .simple-info .simple-btn:hover{
+        background-color: #424247;
+    }
+    .simple .simple-info .simple-btn p{
+
+        color: #FFF;
+        align-items: center;
+        position: relative;
+        bottom: 9px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .simple .simple-info h2{
+        color: #131318;
+font-size: 40px;
+font-weight: 800;
+    }
+    .simple .simple-info p{
+        font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+    }
+   
+
+    .simple .simple-info ul{
+         color: #131318;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    }
+    .simple .simple-info ul li{
+        padding-bottom: 12px;
+    }
+
+    .simple .simple-image h3{
+        color: #FFF;
+
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+        position: relative;
+        top: -45%;
+        margin: 20px;
+    }
 
 
 
@@ -457,12 +568,45 @@ background: rgba(233, 68, 68, 0.05);
     }
 
 
+    /* Bonus Section responsive*/
 
 
 
 
+    .bonus{
+        width: 90%;
+        height: 90%;
+        margin:0px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .bonus .bonus-info{
+        height: 90%;
+        padding: 15px;
+        border-radius: 12px;
+        border: 2px solid rgba(41, 206, 246, 0.20);
+        background-color: rgba(127, 255, 212,0.52);
+    }
 
 
+    /*Simple section responsive*/
+
+
+    
+    .simple{
+        width: 90%;
+        height: 90%;
+        margin: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .simple .simple-image h3{
+
+        position: relative;
+        top: -180px;
+    }
 
         
 

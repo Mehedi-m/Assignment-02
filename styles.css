@@ -189,7 +189,7 @@ font-weight: 400;
 .destination{
     width: 1200px;
     height: 100%;
-    margin:  100px 135px;
+    margin: 100px 135px;
 }
 .destination .desti-para{
     text-align: center;
@@ -225,6 +225,59 @@ bottom: 50%;
 }
 
 
+
+/*why choose us section*/
+
+.choose{
+    width: 1200px;
+    height: 600px;
+}
+
+.choose .info-sec{
+    position: relative;
+    bottom: 290px;
+    margin: 0px 135px;
+    text-align:center;
+    padding: 0px 200px 0px 200px;
+}
+
+.choose .cards{
+    margin: 20px 135px;
+    position: relative;
+    bottom: 200px;
+    display: flex;
+    gap: 50px;
+}
+
+.choose .cards .hand{width: 573px;
+    height: 284px;
+    background-color:rgba(251, 181, 99, 0.05); 
+    padding: 35px;
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+}
+
+.choose .cards .service{width: 573px;
+    height: 284px;
+
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+    padding: 35px;
+}
+
+.choose .price{
+    width: 573px;
+height: 284px;
+    margin: 0px 135px;
+    padding: 35px;
+    position: relative;
+    bottom: 180px;
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+
+}
 
 
 
@@ -357,7 +410,6 @@ bottom: 50%;
 
         color: #fff;
         position: relative;
-    text-align: center;
     }
 
     .destination .jhamela-img .island img,.Pahar img,.River img{
@@ -365,6 +417,48 @@ bottom: 50%;
         height: 200px;
         
     }
+
+
+
+    /*Why choose us section responsive*/
+
+
+    .choose{
+        width: 90%;
+        height: 90%;
+    }
+
+    .choose .info-sec{
+        width: 90%;
+        margin: 20px;
+        padding: 20px;
+    }
+    .choose .cards{
+        margin: 0px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .choose .cards .hand{width: 90%;
+        height:90%;
+        padding: 35px;
+    }
+    .choose .cards .service{
+        width: 90%;
+        height: 90%;
+        padding: 35px;
+    }
+
+    .choose .price{
+        width: 90%;
+    height: 90%;
+        margin:  20px;
+        padding: 35px;
+    
+    }
+
+
+
+
 
 
 

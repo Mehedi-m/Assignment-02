@@ -3,6 +3,10 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 
 
 /*Nav Styles*/
@@ -269,10 +273,9 @@ background: rgba(41, 206, 246, 0.05);
 .choose .price{
     width: 573px;
 height: 284px;
-    margin: 0px 135px;
+    margin: -180px 135px 50px 250px;
     padding: 35px;
-    position: relative;
-    bottom: 180px;
+
     border-radius: 16px;
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
@@ -338,7 +341,8 @@ line-height: 26px; /* 162.5% */
     .simple{
         width: 1200px;
         height: 600px;
-        margin: 70px 135px;
+        margin: 0px 135px;
+        margin-top: 70px;
         display: flex;
         gap: 42px;
     }
@@ -383,14 +387,118 @@ line-height: 26px;
 
     .simple .simple-image h3{
         color: #FFF;
-
-text-align: center;
-font-size: 24px;
-font-weight: 700;
-line-height: 36px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
         position: relative;
         top: -45%;
         margin: 20px;
+    }
+
+
+    /* Newsletter section */
+
+
+    .news-disc{
+        width: 1200px;
+        height: 600px;
+        margin: 0px 135px;
+        display: flex;
+        gap: 24px;
+    }
+
+    .news-disc .news{
+        width: 474px;
+        height: 340px;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        padding: 40px;
+    }
+
+    .news-disc .news h3{
+
+        font-size: 24px;
+font-weight: 800;
+    }
+    .news-disc .news input{
+        width: 393px;
+height: 52px;
+background-color: rgba(19, 19, 24, 0.05);
+margin-bottom: 15px;
+border: none;
+border-radius: 8px;
+    }
+
+    .news-disc .news .news-btn{
+        background-color: #FF5400;
+        transition: 0.3s;
+    }
+    .news-disc .news .news-btn:hover{
+        background-color: #424247;
+    }
+    .news-disc .news .news-btn p{
+        color: #FFF;
+        align-items: center;
+        position: relative;
+        bottom: 9px;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .news-disc .disc .discount{
+        width: 324px;
+        height: 100px;
+        background-color: #FF5400;
+        text-align: center;
+        border-radius: 16px;
+        position: relative;
+        left: 50%;
+        top: -35%;
+        transform: rotate(-25deg);
+    }
+    .news-disc .disc .discount h3{
+        color: #FFF;
+font-size: 32px;
+font-weight: 800;
+        line-height: 8px;
+    }
+
+    .news-disc .disc .discount h4{
+        color: #FFF;
+font-size: 24px;
+font-weight: 400;
+    }
+
+
+    /*Footer Section*/
+
+
+    .foot{
+        width: 100%;
+        height: 502px;
+        background: rgba(19, 19, 24, 0.05);
+        text-align: center;
+    }
+    .foot .foot-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding-top: 110px;
+    }
+    .foot .foot-logo h3{
+        font-size: 32px;
+font-weight: 800;
+    }
+    .foot .foot-name{
+        padding: 0px 284px;
+    }
+    .foot .foot-name img{
+        padding-bottom: 50px;
+    }
+    .foot .foot-name h5{
+        padding-top: 25px;
     }
 
 
@@ -560,9 +668,10 @@ line-height: 36px;
     }
 
     .choose .price{
-        width: 90%;
+        width: 80%;
     height: 90%;
         margin:  20px;
+        margin-top: -170px;
         padding: 35px;
     
     }
@@ -608,7 +717,81 @@ line-height: 36px;
         top: -180px;
     }
 
-        
+
+    /*News letter section */
+
+    .news-disc{
+        width: 80%;
+        height: 90%;
+        margin: 0px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .news-disc .news{
+        width: 90%;
+        height: 90%;
+    }
+    .news-disc .news input{
+        width: 100%;
+height: 52px;
+    }
+    .news-disc .disc .discount{
+        width: 214.023px;
+        height: 79.268px;
+        position: relative;
+        top: -150px;
+        left: 110px;
+
+    }
+    .news-disc .disc .discount h3{
+     
+        font-size: 21.138px; 
+        font-weight: 800;
+    }
+
+    .news-disc .disc img{
+        width: 335px;
+height: 300px;
+margin-left: 20px;
+
+    }
+
+
+    /* footer section responsive*/
+
+    .foot{
+        width: 100%;
+        height: 100%;
+        padding-right: 20px;
+        margin-bottom: -22px;
+    }
+    .foot .foot-logo{
+        padding-top: 32px;
+    }
+    .foot .foot-logo h3{
+        font-size: 21px;
+    }
+    .foot .foot-logo div{
+        width: 28.724px;
+height: 33.516px;
+    }
+    .foot .foot-name{
+        padding: 0px 20px;
+    }
+     .foot .foot-name img{
+        padding-bottom: 24px;
+    }
+    .foot .foot-name h5{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+
+
+
+
+
 
 
 
